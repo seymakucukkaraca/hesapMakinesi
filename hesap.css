@@ -1,0 +1,91 @@
+.hesap{
+    max-width:400px;
+    background:black;
+
+}
+* {
+     box-sizing: border-box;
+ }
+.span-2{
+      grid-column: span 2;
+  }
+.span-3{
+    grid-column: span 3;
+}
+.calculator-buttons{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    border:0;
+}
+.calc-numbers{
+    text-align:right;
+    font-family:"Arial ";
+    background:black;
+    color: white;
+    font-size: 4em;
+    border:0.5px;
+    padding: 0.3em;
+
+    width: 100%;
+    height: 100px;
+}
+.btn{
+    font-size:2em;
+    height: 85px;
+    border:5px solid black;
+}
+.btn:hover{
+    background: white;
+}
+.mediumpurple{
+    background-color: dodgerblue;
+}
+/*var rakamekle = false
+var oncekisonuc = 0
+var islem = "="
+function temizle()
+{
+    document.hesapmakinesi.sonuc.value = 0
+    oncekisonuc = 0
+    rakamekle = false
+    islem = "="
+}
+function hesapla(yeniislem)
+{
+
+    var yenisayi = eval(document.hesapmakinesi.sonuc.value)
+
+    if (islem == "+") {
+        oncekisonuc = oncekisonuc + yenisayi
+    }
+    else if (islem == "-") {
+        oncekisonuc = oncekisonuc - yenisayi
+    }
+    else if (islem == "/") {
+        oncekisonuc = oncekisonuc / yenisayi
+    }
+    else if (islem == "*") {
+        oncekisonuc = oncekisonuc * yenisayi
+    }
+    else if (islem == "=") {
+        oncekisonuc = yenisayi
+    }
+    else {
+        oncekisonuc = yenisayi
+    }
+
+    document.hesapmakinesi.sonuc.value = oncekisonuc
+    rakamekle = false
+    islem = yeniislem
+}
+
+function sayiyaz(rakam)
+{
+    if (rakamekle) {
+        document.hesapmakinesi.sonuc.value += rakam
+    }// http://www.bilisimogretmeni.com/
+    else {
+        document.hesapmakinesi.sonuc.value = rakam
+        rakamekle = true
+    }
+}*/
